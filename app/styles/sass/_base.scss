@@ -1,0 +1,57 @@
+*::-webkit-input-placeholder{
+  color: #666;
+  opacity: 1
+}
+
+
+*:-moz-placeholder{
+  color: #666;
+  opacity: 1;
+}
+
+
+*::-moz-placeholder{
+  color: #666;
+  opacity: 1;
+}
+
+
+*:-ms-input-placeholder{
+  color: #666;
+  opacity: 1;
+}
+
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid{
+  color: #666;
+}
+
+body input:required:valid,
+body textarea:required:valid{
+  color: #666;
+}
+
+p, h1, h2, h3{
+  margin: 0;
+}
+
+html {
+  -webkit-text-size-adjust : none;
+  text-size-adjust         : none
+}
+
+body{
+  max-width : 420px;
+  font-size:1.0em;
+  position: relative;
+  line-height:1.42857143;
+  font-family: $default-font-reg;
+  overflow-x: hidden;
+  margin:0 auto;
+}
+.container{
+  margin: 0 10px;
+  padding: 0 10px;
+}
+

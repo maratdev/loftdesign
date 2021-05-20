@@ -1,0 +1,19 @@
+// IMPORT SECTION
+//@import 'node_modules/bootstrap/scss/bootstrap-reboot.scss'; // Bootstrap Reboot collection
+//@import 'node_modules/bootstrap/scss/mixins/_breakpoints.scss'; // Bootstrap Breakpoints mixin
+ @import 'node_modules/bootstrap/scss/bootstrap-grid.scss'; // Optional Bootstrap Grid
+// @import 'node_modules/bootstrap/scss/utilities/_sizing.scss'; // Optional Bootstrap Utilites
+
+@mixin outline($color){
+	outline:1px solid $color ;
+}
+
+$default-font-li-i: 'Ubuntulii', Helvetica,Arial sans-serif;
+$default-font-reg: 'Ubuntureg', Helvetica,Arial sans-serif;
+$default-font-li: 'Ubuntuli', Helvetica,Arial sans-serif;
+
+
+
+$base: #000;
+$accent: #e8a09f;
+$gray: #7a797e;
