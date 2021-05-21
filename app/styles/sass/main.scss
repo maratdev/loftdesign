@@ -2,6 +2,8 @@
 @import 'media';
 @import 'base';
 
+
+
 //Шапка/Лого
 .header__content_logo{
   z-index: 3;
@@ -148,15 +150,36 @@
 .gallery{
   overflow: hidden;
   min-height: 275px;
-  padding: 0 15px;
+  padding: 0 8px;
   @include outline(red);
-  img{
-    max-width: 100%;
-    overflow: hidden;
+
+  .gallery__img{
+    img{
+      width: 100%;
+      overflow: hidden;
+    }
+    a{
+      display: block;
+      color: $base;
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: 800;
+
+    }
   }
   .col{
-    padding: 9px;
+    padding-right: 11px;
+    padding-left: 5px;
+    margin-bottom: 17px;
   }
 
+}
+
+.carousel{
+  img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 }
 
